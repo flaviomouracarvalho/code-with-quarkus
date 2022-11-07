@@ -7,3 +7,7 @@ insert into Categoria (id,descricao,sigla)values
                             (1,'Eletrônicos','EL'),
                             (2,'SmartPhone','SP'),
                             (3,'TVs','TV');
+
+insert into Produto (descricao, categoria_id, preco) values
+                            ('Eletrônicos',1,400),
+                            ('SmartPhone',2,600);
